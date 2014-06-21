@@ -54,6 +54,12 @@ This script will take a picture and name the file with a timestamp. Say we saved
 chmod +x camera.sh
 ```
 
+Then we would make sure the /home/pi/camera directory exists and, if not, create it using:
+
+```bash
+mkdir /home/pi/camera
+```
+
 Then run with:
 
 ```bash
